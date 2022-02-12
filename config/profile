@@ -1,0 +1,3 @@
+. "/home/emssej/.nix-profile/etc/profile.d/hm-session-vars.sh"
+if [ -e /home/emssej/.nix-profile/etc/profile.d/nix.sh ]; then . /home/emssej/.nix-profile/etc/profile.d/nix.sh; fi
+[[ -f ~/.bashrc ]] && . ~/.bashrc
